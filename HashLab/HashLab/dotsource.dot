@@ -1,0 +1,2 @@
+digraph G {
+nodesep=.05;  rankdir=LR;  node [shape=record,width=.1,height=.1];node0 [label = "<f0>|<f1>|<f2>",height=2.5];  node [width = 1.5];node1 [label = "{<n>|||<p> }"];node2 [label = "{<n> 1 |3 ||<p> }"];node3 [label = "{<n> 2 |||<p> }"];node0:f0 -> node1:n;node0:f1 -> node2:n;node0:f2 -> node3:n;}
